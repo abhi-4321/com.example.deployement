@@ -22,6 +22,12 @@ repositories {
     mavenCentral()
 }
 
+ktor {
+    fatJar {
+        archiveFileName.set("fat.jar")
+    }
+}
+
 tasks.register<Jar>("uberJar") {
     archiveClassifier.set("uber")
 
