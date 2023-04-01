@@ -61,7 +61,7 @@ fun Application.configureRouting() {
                     "\t</nav>\n" +
                     "\n" +
                     "\t<footer>\n" +
-                    "\t\t<p>Thank you for visiting my website! - Your Name</p>\n" +
+                    "\t\t<p>Thank you for visiting ! - Kailash Sharma</p>\n" +
                     "\t</footer>\n" +
                     "</body>\n" +
                     "</html>\n", ContentType.Text.Html)
